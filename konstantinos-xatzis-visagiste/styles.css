@@ -106,33 +106,14 @@ svg {
 .brand {
   align-items: center;
   display: flex;
-  gap: 0.85rem;
   width: max-content;
 }
 
 .brand-logo {
   display: block;
-  height: 42px;
+  height: 66px;
   object-fit: cover;
-  width: 42px;
-}
-
-.brand-name {
-  display: flex;
-  font-family: "Manrope", Arial, sans-serif;
-  font-size: 0.7rem;
-  font-weight: 600;
-  letter-spacing: 0.15em;
-  line-height: 1.2;
-  flex-direction: column;
-}
-
-.brand-name small {
-  color: #716c65;
-  font-size: 0.56rem;
-  font-weight: 400;
-  letter-spacing: 0.34em;
-  margin-top: 0.3rem;
+  width: 66px;
 }
 
 nav {
@@ -951,26 +932,9 @@ footer {
 }
 
 .footer-brand img {
-  height: 56px;
+  height: 88px;
   object-fit: cover;
-  width: 56px;
-}
-
-.footer-brand div {
-  display: flex;
-  flex-direction: column;
-  gap: 0.4rem;
-}
-
-.footer-brand strong {
-  font-size: 0.63rem;
-  letter-spacing: 0.16em;
-}
-
-.footer-brand span {
-  color: #938d83;
-  font-size: 0.55rem;
-  letter-spacing: 0.2em;
+  width: 88px;
 }
 
 .footer-links {
@@ -1108,16 +1072,8 @@ footer > p {
   }
 
   .brand-logo {
-    height: 37px;
-    width: 37px;
-  }
-
-  .brand-name {
-    font-size: 0.58rem;
-  }
-
-  .brand-name small {
-    font-size: 0.48rem;
+    height: 54px;
+    width: 54px;
   }
 
   .header-book {
