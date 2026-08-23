@@ -110,15 +110,10 @@ svg {
   width: max-content;
 }
 
-.brand-mark {
-  align-items: center;
-  border: 1px solid var(--ink);
-  display: flex;
-  font-family: "Playfair Display", Georgia, serif;
-  font-size: 1rem;
+.brand-logo {
+  display: block;
   height: 42px;
-  justify-content: center;
-  letter-spacing: -0.08em;
+  object-fit: cover;
   width: 42px;
 }
 
@@ -1112,7 +1107,7 @@ footer > p {
     padding: 0 1.1rem;
   }
 
-  .brand-mark {
+  .brand-logo {
     height: 37px;
     width: 37px;
   }
